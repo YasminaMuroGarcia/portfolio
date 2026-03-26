@@ -1,202 +1,293 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Yasmina Muro - Backend Developer</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Yasmina Muro — Backend Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="glow-orb-right"></div>
 
-    <body>
-            <header>
-                <nav>
-                    <div class="logo">YM</div>
-                    <div>
-                        <a href="#about">About</a>
-                        <a href="#experience">Experience</a>
-                        <a href="#projects">Projects</a>
-                        <a href="#skills">Skills</a>
-                        <a href="#education">Education</a>
+<header>
+    <div class="logo"><span>~/</span>yasmina.muro</div>
+    <nav>
+        <a href="#about">about</a>
+        <a href="#experience">experience</a>
+        <a href="#projects">projects</a>
+        <a href="#skills">skills</a>
+        <a href="#education">education</a>
+    </nav>
+</header>
+
+<main>
+    <!-- HERO -->
+    <section class="hero" id="about">
+        <p class="hero-eyebrow">Backend Developer · Berlin</p>
+        <h1>Building systems<br>that <em>scale.</em></h1>
+        <p class="hero-description">
+            4 years designing and shipping scalable APIs and microservices.
+            Specialising in Golang, PostgreSQL, and cloud infrastructure —
+            with a growing edge in AI-driven development workflows.
+        </p>
+        <div class="hero-actions">
+            <a href="mailto:yasminamurogarcia@gmail.com" class="btn-primary">get in touch</a>
+            <a href="#experience" class="btn-secondary">see my work</a>
+        </div>
+        <div class="hero-socials">
+            <a href="https://www.linkedin.com/in/yasmina-muro-136603147/" target="_blank" title="LinkedIn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+            </a>
+            <a href="https://github.com/YasminaMuroGarcia" target="_blank" title="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+            </a>
+            <a href="mailto:yasminamurogarcia@gmail.com" title="Email">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            </a>
+        </div>
+        <div class="hero-stats">
+            <div class="stat-item">
+                <div class="stat-number">4+</div>
+                <div class="stat-label">years experience</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">40%</div>
+                <div class="stat-label">response time improvement</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">5</div>
+                <div class="stat-label">new markets unlocked</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">50%</div>
+                <div class="stat-label">faster deploys</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+        <div class="section-header">
+            <span class="section-number">01</span>
+            <h2>My <em>Journey</em></h2>
+            <div class="section-line"></div>
+        </div>
+
+        <div class="experience-item">
+            <div class="exp-meta">
+                <div class="exp-date">2022 — Present</div>
+                <div class="exp-company">OneFootball GmbH</div>
+            </div>
+            <div class="exp-body">
+                <div class="exp-title">Fullstack Engineer</div>
+                <ul class="exp-list">
+                    <li>Developed scalable applications in Golang, improving response times by 40%</li>
+                    <li>Optimized PostgreSQL database with indexing and query optimization, reducing query execution time by 30%</li>
+                    <li>Implemented continuous delivery model, reducing deployment time to production by 50%</li>
+                    <li>Developed CI/CD pipelines using ArgoCD and Jenkins for automated deployments</li>
+                    <li>Built AI-powered translation microservice using OpenAI LLMs and Python, expanding reach to 5 new markets</li>
+                    <li>Integrated Amazon SQS for asynchronous inter-service communication</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <div class="exp-meta">
+                <div class="exp-date">Jan — Jul 2019</div>
+                <div class="exp-company">Softeca S.L.</div>
+            </div>
+            <div class="exp-body">
+                <div class="exp-title">Fullstack Engineer</div>
+                <ul class="exp-list">
+                    <li>Resolved critical bugs in Java applications, reducing downtime by 20%</li>
+                    <li>Designed and implemented new features based on user feedback</li>
+                    <li>Collaborated with cross-functional teams on requirements gathering</li>
+                    <li>Created technical documentation for troubleshooting and onboarding</li>
+                    <li>Actively participated in Agile development and sprint planning</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <div class="section-header">
+            <span class="section-number">02</span>
+            <h2>Featured <em>Projects</em></h2>
+            <div class="section-line"></div>
+        </div>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-banner">🧠</div>
+                <div class="project-body">
+                    <div class="project-title">Learning Cards</div>
+                    <p class="project-desc">A Go-based backend for a spaced-repetition learning cards service. REST API with Gin, PostgreSQL persistence via Gorm, CSV seeding and cron-based background sync for vocabulary scheduling.</p>
+                    <div class="project-tags">
+                        <span class="tag green">Golang</span>
+                        <span class="tag green">Gin</span>
+                        <span class="tag green">Gorm</span>
+                        <span class="tag">PostgreSQL</span>
                     </div>
-                </nav>
-            </header>
-
-            <main>
-                <section class="hero" id="about">
-                    <h1>Hi, I'm <span class="highlight">Yasmina Muro</span></h1>
-                    <p class="hero-subtitle">Backend Developer specializing in Golang</p>
-                    <p class="hero-description">
-                        With 4 years of backend development experience, I design and implement scalable APIs and robust microservices architecture.
-                        I'm passionate about building efficient systems using Golang, PostgreSQL, and AWS, with a focus on performance optimization and security.
-                    </p>
-                    <div class="cta-buttons">
-                        <a href="/cdn-cgi/l/email-protection#a8d1c9dbc5c1c6c9c5dddac7cfc9dacbc1c9e8cfc5c9c1c486cbc7c5" class="btn btn-primary">Get In Touch</a>
-                        <a href="#experience" class="btn btn-secondary">View My Work</a>
+                    <div class="project-footer">
+                        <a href="https://github.com/YasminaMuroGarcia/learningCards" target="_blank" class="project-link">View on GitHub</a>
                     </div>
-                    <div class="social-links">
-                        <a href="https://linkedin.com/in/yasmina-muro" title="LinkedIn" target="_blank">in</a>
-                        <a href="https://github.com" title="GitHub" target="_blank">⚙️</a>
-                        <a href="/cdn-cgi/l/email-protection#1f667e6c7276717e726a6d70787e6d7c767e5f78727e7673317c7072" title="Email">✉️</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-banner">🏫</div>
+                <div class="project-body">
+                    <div class="project-title">
+                        School Watch Management
+                        <span class="private-badge">🔒 private</span>
                     </div>
-                </section>
-
-                <section id="experience">
-                    <h2>My <span class="highlight">Journey</span></h2>
-
-                    <div class="experience-item">
-                        <div class="experience-header">
-                            <div>
-                                <h3>Fullstack Engineer</h3>
-                                <div class="company">OneFootball GmbH</div>
-                            </div>
-                            <div class="date">2022 - Present</div>
-                        </div>
-                        <ul>
-                            <li>Developed scalable applications in Golang, improving response times by 40%</li>
-                            <li>Optimized PostgreSQL database with indexing and query optimization, reducing query execution time by 30%</li>
-                            <li>Implemented continuous delivery model, reducing deployment time to production by 50%</li>
-                            <li>Developed CI/CD pipelines using ArgoCD and Jenkins for automated deployments</li>
-                            <li>Built AI-powered translation microservice using OpenAI LLMs and Python, expanding reach to 5 new markets</li>
-                            <li>Integrated Amazon Message Queue for asynchronous inter-service communication</li>
-                        </ul>
+                    <p class="project-desc">Full-stack system for a high school client streamlining cover class coordination. Coordinators assign watches with one click; teachers get real-time push notifications and a personal history view. Mobile frontend in Flutter built using Spec-Driven Development — orchestrating agents and sub-agents to generate, review, and iterate on code.</p>
+                    <div class="project-tags">
+                        <span class="tag green">Golang</span>
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">Railway</span>
+                        <span class="tag green">Flutter</span>
+                        <span class="tag">Push Notifications</span>
+                        <span class="tag green">Spec-Driven Dev</span>
+                        <span class="tag green">AI Agents</span>
                     </div>
-
-                    <div class="experience-item">
-                        <div class="experience-header">
-                            <div>
-                                <h3>Fullstack Engineer</h3>
-                                <div class="company">Softeca S.L.</div>
-                            </div>
-                            <div class="date">Jan 2019 - July 2019</div>
-                        </div>
-                        <ul>
-                            <li>Resolved critical bugs in Java applications, reducing downtime by 20%</li>
-                            <li>Designed and implemented new features based on user feedback</li>
-                            <li>Collaborated with cross-functional teams on requirements gathering</li>
-                            <li>Created technical documentation for troubleshooting and onboarding</li>
-                            <li>Actively participated in Agile development and sprint planning</li>
-                        </ul>
+                    <div class="project-footer">
+                        <span class="private-label">🔒 Private client project</span>
                     </div>
-                </section>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                <section id="projects">
-                    <h2>Featured <span class="highlight">Projects</span></h2>
-                    <p style="text-align: center; color: #94a3b8; margin-bottom: 2rem; font-size: 1.1rem;">Some of the things I've built.</p>
+    <!-- SKILLS -->
+    <section id="skills">
+        <div class="section-header">
+            <span class="section-number">03</span>
+            <h2>Technical <em>Skills</em></h2>
+            <div class="section-line"></div>
+        </div>
 
-                    <div class="projects-grid">
-                        <div class="project-card">
-                            <div class="project-image">🧠</div>
-                            <div class="project-content">
-                                <h3>Learning Cards</h3>
-                                <p>A Go-based backend for a spaced-repetition learning cards service. Includes a REST API built with Gin, PostgreSQL persistence via Gorm, CSV seeding and cron-based background sync — useful for scheduling vocabulary reviews.</p>
-                                <div class="project-tech">
-                                    <span class="tech-tag">Golang</span>
-                                    <span class="tech-tag">Gin</span>
-                                    <span class="tech-tag">Gorm</span>
-                                    <span class="tech-tag">PostgreSQL</span>
-                                </div>
-                                <div class="project-buttons">
-                                    <a href="https://github.com/YasminaMuroGarcia/learningCards" target="_blank" class="project-btn primary">View Project</a>
-                                </div>
-                            </div>
-                        </div>
+        <div class="skills-layout">
+            <div class="skill-block">
+                <div class="skill-block-label">Languages</div>
+                <div class="skill-block-items">
+                    <span class="skill-pill">Golang</span>
+                    <span class="skill-pill">Python</span>
+                    <span class="skill-pill">Java</span>
+                </div>
+            </div>
+            <div class="skill-block">
+                <div class="skill-block-label">Frameworks</div>
+                <div class="skill-block-items">
+                    <span class="skill-pill">Gin</span>
+                    <span class="skill-pill">Gorm</span>
+                    <span class="skill-pill">Flutter</span>
+                </div>
+            </div>
+            <div class="skill-block">
+                <div class="skill-block-label">Databases</div>
+                <div class="skill-block-items">
+                    <span class="skill-pill">PostgreSQL</span>
+                </div>
+            </div>
+            <div class="skill-block">
+                <div class="skill-block-label">Cloud & DevOps</div>
+                <div class="skill-block-items">
+                    <span class="skill-pill">AWS</span>
+                    <span class="skill-pill">Amazon SQS</span>
+                    <span class="skill-pill">Docker</span>
+                    <span class="skill-pill">Kubernetes</span>
+                    <span class="skill-pill">ArgoCD</span>
+                    <span class="skill-pill">Jenkins</span>
+                </div>
+            </div>
+            <div class="skill-block">
+                <div class="skill-block-label">Architecture</div>
+                <div class="skill-block-items">
+                    <span class="skill-pill">Microservices</span>
+                    <span class="skill-pill">REST APIs</span>
+                    <span class="skill-pill">Scalable Systems</span>
+                    <span class="skill-pill">Event-Driven</span>
+                </div>
+            </div>
+            <div class="skill-block">
+                <div class="skill-block-label">Testing</div>
+                <div class="skill-block-items">
+                    <span class="skill-pill">Unit Tests</span>
+                    <span class="skill-pill">Integration</span>
+                    <span class="skill-pill">TDD</span>
+                </div>
+            </div>
+            <div class="skill-block">
+                <div class="skill-block-label">AI & Emerging</div>
+                <div class="skill-block-items">
+                    <span class="skill-pill">OpenAI APIs</span>
+                    <span class="skill-pill">AI Agents</span>
+                    <span class="skill-pill">Spec-Driven Dev</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                        <div class="project-card">
-                            <div class="project-image">🏫</div>
-                            <div class="project-content">
-                                <h3>School Watch Management System <span class="private-badge">🔒 Private</span></h3>
-                                <p>Full-stack system for a high school client that streamlines cover class coordination. Coordinators create watches for a class and instantly see available teachers for that time slot, then assign the cover with one click. Teachers receive a real-time push notification and can review their full watch history in their profile. The mobile frontend is built in Flutter using Spec-Driven Development — writing detailed specs that orchestrate agents and sub-agents to generate, review, and iterate on the code.</p>
-                                <div class="project-tech">
-                                    <span class="tech-tag">Golang</span>
-                                    <span class="tech-tag">PostgreSQL</span>
-                                    <span class="tech-tag">Docker</span>
-                                    <span class="tech-tag">Railway</span>
-                                    <span class="tech-tag">Flutter</span>
-                                    <span class="tech-tag">Push Notifications</span>
-                                    <span class="tech-tag">Spec-Driven Dev</span>
-                                    <span class="tech-tag">AI Agents</span>
-                                </div>
-                                <div class="project-buttons">
-                                    <span class="project-btn" style="cursor:default; opacity:0.7;">🔒 Private Client Project</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                    <h2>Technical <span class="highlight">Skills</span></h2>
-                    <div class="skills-grid">
-                        <div class="skill-category">
-                            <h3>Languages</h3>
-                            <p>Golang, Python</p>
-                        </div>
-                        <div class="skill-category">
-                            <h3>Databases</h3>
-                            <p>PostgreSQL</p>
-                        </div>
-                        <div class="skill-category">
-                            <h3>Cloud & DevOps</h3>
-                            <p>AWS, Docker, Kubernetes, ArgoCD, Jenkins</p>
-                        </div>
-                        <div class="skill-category">
-                            <h3>Architecture</h3>
-                            <p>Microservices, API Development, Scalable Systems</p>
-                        </div>
-                        <div class="skill-category">
-                            <h3>Testing</h3>
-                            <p>Unit Tests, Integration Tests, TDD</p>
-                        </div>
-                        <div class="skill-category">
-                            <h3>Methodologies</h3>
-                            <p>Agile, Scrum, Test-Driven Development</p>
-                        </div>
-                    </div>
-                </section>
+    <!-- EDUCATION -->
+    <section id="education">
+        <div class="section-header">
+            <span class="section-number">04</span>
+            <h2>Education & <em>Achievements</em></h2>
+            <div class="section-line"></div>
+        </div>
 
-                <section id="education">
-                    <h2>Education & <span class="highlight">Achievements</span></h2>
+        <div class="edu-item">
+            <div class="edu-degree">Degree in Computer Science</div>
+            <div class="edu-school">Burgos University</div>
+            <div class="edu-year">2014 — 2018 · Computing specialisation</div>
+            <div class="edu-detail">Data Mining · Artificial Intelligence · Algorithms · Numerical & Optimisation Methods · Language Processors</div>
+        </div>
 
-                    <div class="education-item">
-                        <h3>Degree in Computer Science</h3>
-                        <div class="school">Burgos University</div>
-                        <div class="year">2014 - 2018</div>
-                        <p><strong>Specialization:</strong> Computing</p>
-                        <p><strong>Relevant Coursework:</strong> Data Mining, Artificial Intelligence, Algorithms, Numerical and Optimization Methods, Language Processors</p>
-                    </div>
+        <div class="achievements-grid">
+            <div class="achievement">
+                <div class="achievement-icon">⚡</div>
+                <div class="achievement-label">Performance</div>
+                <div class="achievement-text">40% response time improvement through careful Golang architecture and query optimisation</div>
+            </div>
+            <div class="achievement">
+                <div class="achievement-icon">🌍</div>
+                <div class="achievement-label">Innovation</div>
+                <div class="achievement-text">First AI translation microservice — unlocked same-day multilingual publishing across 5 markets</div>
+            </div>
+            <div class="achievement">
+                <div class="achievement-icon">🚀</div>
+                <div class="achievement-label">Reliability</div>
+                <div class="achievement-text">50% faster deployments via CI/CD pipeline with ArgoCD and Jenkins</div>
+            </div>
+        </div>
+    </section>
 
-                    <div class="education-item">
-                        <h3>Key Achievements</h3>
-                        <p><strong>Performance:</strong> Consistently delivered 40% performance improvements through optimization</p>
-                        <p><strong>Innovation:</strong> Built first AI-powered translation microservice, unlocking same-day multilingual publishing</p>
-                        <p><strong>Reliability:</strong> Reduced deployment time by 50% through CI/CD implementation</p>
-                    </div>
-                </section>
-                <section id="contact">
-                    <h2>Let's <span class="highlight">Connect</span></h2>
-                    <div class="social-section">
-                        <h3>Find me on</h3>
-                        <div class="social-icons">
-                            <div class="social-icon-box">
-                                <a href="https://www.linkedin.com/in/yasmina-muro" class="social-icon-circle" target="_blank" title="LinkedIn" style="background: #0A66C2; border-color: #0A66C2;">
-                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/>
-                                    </svg>
-                                </a>
-                                <span class="social-icon-label">LinkedIn</span>
-                            </div>
-                            <div class="social-icon-box">
-                                <a href="https://github.com/yasminamuro" class="social-icon-circle" target="_blank" title="GitHub" style="background: #000000; border-color: #000000;">
-                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                                    </svg>
-                                </a>
-                                <span class="social-icon-label">GitHub</span>
-                            </div>
-                            <div class="social-icon-box">
-                                <a href="/cdn-cgi/l/email-protection#a6dfc7d5cbcfc8c7cbd3d4c9c1c7d4c5cfc7e6c1cbc7cfca88c5c9cb" class="social-icon-circle" target="_blank" title="Email" style="background: #EA4335; border-color: #EA4335;">
-                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-                                    </svg>
-                                </a>
-                                <span class="social-icon-label">Email</span>
-                            </div>
-                        </div>
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="contact-block">
+            <div class="contact-left">
+                <h3>Let's <em>connect</em></h3>
+                <p>Open to new opportunities and interesting problems.</p>
+            </div>
+            <div class="contact-right">
+                <a href="https://www.linkedin.com/in/yasmina-muro-136603147/" target="_blank" class="contact-icon-link" title="LinkedIn" style="border-color: rgba(10,102,194,0.4);">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="#0A66C2"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+                </a>
+                <a href="https://github.com/YasminaMuroGarcia" target="_blank" class="contact-icon-link" title="GitHub" style="border-color: rgba(255,255,255,0.12);">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+                </a>
+                <a href="mailto:yasminamurogarcia@gmail.com" class="contact-icon-link" title="Email" style="border-color: rgba(234,67,53,0.4);">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="#EA4335"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>© 2026 Yasmina Muro · Germany · built with intention</footer>
+</body>
+</html>
